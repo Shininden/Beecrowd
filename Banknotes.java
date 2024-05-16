@@ -11,7 +11,6 @@ public class Banknotes
         System.out.print("How much money do you want to withdraw? ");
         int requestedValue = sc.nextInt();
 
-        int aux = requestedValue;
         int power = 0;
         int real_1 = 0, real_2 = 0, real_5 = 0, real_10 = 0, real_20 = 0, real_50 = 0, real_100 = 0;
 
