@@ -13,7 +13,7 @@ public class Banknotes
 
         int power = 0;
         int real_2 = 0, real_5 = 0, real_10 = 0, real_20 = 0, real_50 = 0, real_100 = 0;
-        double cent_1 = 0, cent_050 = 0, cent_025 = 0, cent_010 = 0, cent_005 = 0, cent_001 = 0; 
+        //double cent_1 = 0, cent_050 = 0, cent_025 = 0, cent_010 = 0, cent_005 = 0, cent_001 = 0; 
 
         while(requestedValue > 0)
         {
@@ -73,7 +73,7 @@ public class Banknotes
 
                while ((digit - 1) >= 0)
                {
-                  cent_1++;
+                  //cent_1++;
                   digit -= 1;
                }
 
@@ -89,7 +89,7 @@ public class Banknotes
         System.out.println(real_10 + " nota(s) de R$ 10,00");
         System.out.println(real_5 + " nota(s) de R$ 5,00");
         System.out.println(real_2 + " nota(s) de R$ 2,00");
-        System.out.println(cent_1 + " nota(s) de R$ 1,00");
+       // System.out.println(cent_1 + " nota(s) de R$ 1,00");
 
         sc.close();
     }
