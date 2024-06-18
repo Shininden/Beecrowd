@@ -1,7 +1,7 @@
+package Beginner;
 import java.util.Scanner;
 
 public class WeightedAverage
- 
 {
     public static void main(String[] args) 
     {
