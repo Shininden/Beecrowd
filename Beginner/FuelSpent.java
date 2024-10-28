@@ -15,7 +15,7 @@ public class FuelSpent
         totalFuel /= 12;
 
         //System.out.printf("%.3f", totalFuel);
-        System.out.println(String.format("%.3f", totalFuel));  
+        System.out.printf("%.3f%n", totalFuel);
 
         sc.close();
     }
